@@ -9,8 +9,8 @@
 #
 package Dist::Zilla::PluginBundle::RSRCHBOY;
 our $AUTHORITY = 'cpan:RSRCHBOY';
-# git description: 0.054-1-g77bdb49
-$Dist::Zilla::PluginBundle::RSRCHBOY::VERSION = '0.055';
+# git description: 0.055-5-g133b8f3
+$Dist::Zilla::PluginBundle::RSRCHBOY::VERSION = '0.056';
 
 # ABSTRACT: Zilla your distributions like RSRCHBOY!
 
@@ -282,6 +282,8 @@ sub configure {
         }],
         [ CopyFilesFromBuild => { copy => $self->_copy_from_build } ],
 
+        [ 'GitHubREADME::Badge' => { badges => [ qw{ travis cpants } ] } ],
+
         ($self->is_task ? 'TaskWeaver' : $podweaver),
     );
 
@@ -344,7 +346,7 @@ Dist::Zilla::PluginBundle::RSRCHBOY - Zilla your distributions like RSRCHBOY!
 
 =head1 VERSION
 
-This document describes version 0.055 of Dist::Zilla::PluginBundle::RSRCHBOY - released December 27, 2014 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
+This document describes version 0.056 of Dist::Zilla::PluginBundle::RSRCHBOY - released April 20, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
 
 =head1 SYNOPSIS
 

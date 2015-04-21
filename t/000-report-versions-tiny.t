@@ -68,6 +68,7 @@ eval { $v .= pmver('Dist::Zilla::Plugin::Git::Describe','any version') };
 eval { $v .= pmver('Dist::Zilla::Plugin::Git::NextVersion','any version') };
 eval { $v .= pmver('Dist::Zilla::Plugin::Git::Remote::Check','any version') };
 eval { $v .= pmver('Dist::Zilla::Plugin::GitHub::Update','any version') };
+eval { $v .= pmver('Dist::Zilla::Plugin::GitHubREADME::Badge','any version') };
 eval { $v .= pmver('Dist::Zilla::Plugin::GithubMeta','any version') };
 eval { $v .= pmver('Dist::Zilla::Plugin::HasVersionTests','any version') };
 eval { $v .= pmver('Dist::Zilla::Plugin::InstallRelease','any version') };
