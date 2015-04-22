@@ -9,8 +9,8 @@
 #
 package Dist::Zilla::PluginBundle::RSRCHBOY;
 our $AUTHORITY = 'cpan:RSRCHBOY';
-# git description: 0.056-1-g8894562
-$Dist::Zilla::PluginBundle::RSRCHBOY::VERSION = '0.057';
+# git description: 0.057-1-g36034a2
+$Dist::Zilla::PluginBundle::RSRCHBOY::VERSION = '0.058';
 
 # ABSTRACT: Zilla your distributions like RSRCHBOY!
 
@@ -268,7 +268,7 @@ sub configure {
             -phase        => 'develop',
             -relationship => 'requires',
 
-            $self->meta->name  => $self->meta->VERSION,
+            $self->meta->name  => $self->VERSION,
         } ],
 
         $self->author_tests,
@@ -353,7 +353,7 @@ Dist::Zilla::PluginBundle::RSRCHBOY - Zilla your distributions like RSRCHBOY!
 
 =head1 VERSION
 
-This document describes version 0.057 of Dist::Zilla::PluginBundle::RSRCHBOY - released April 21, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
+This document describes version 0.058 of Dist::Zilla::PluginBundle::RSRCHBOY - released April 21, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
 
 =head1 SYNOPSIS
 
