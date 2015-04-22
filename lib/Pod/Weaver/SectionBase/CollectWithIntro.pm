@@ -9,7 +9,7 @@
 #
 package Pod::Weaver::SectionBase::CollectWithIntro;
 our $AUTHORITY = 'cpan:RSRCHBOY';
-$Pod::Weaver::SectionBase::CollectWithIntro::VERSION = '0.056';
+$Pod::Weaver::SectionBase::CollectWithIntro::VERSION = '0.057';
 # ABSTRACT: Extends CollectWithIntro to provide a better default plugin name
 
 use Moose;
@@ -41,7 +41,7 @@ Pod::Weaver::SectionBase::CollectWithIntro - Extends CollectWithIntro to provide
 
 =head1 VERSION
 
-This document describes version 0.056 of Pod::Weaver::SectionBase::CollectWithIntro - released April 20, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
+This document describes version 0.057 of Pod::Weaver::SectionBase::CollectWithIntro - released April 21, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
 
 =head1 SEE ALSO
 
