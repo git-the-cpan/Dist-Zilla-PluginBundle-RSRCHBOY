@@ -5,8 +5,8 @@ NAME
 
 VERSION
 
-    This document describes version 0.058 of
-    Dist::Zilla::PluginBundle::RSRCHBOY - released April 21, 2015 as part
+    This document describes version 0.059 of
+    Dist::Zilla::PluginBundle::RSRCHBOY - released April 27, 2015 as part
     of Dist-Zilla-PluginBundle-RSRCHBOY.
 
 SYNOPSIS
@@ -126,13 +126,13 @@ AUTHOR
     release works like this because I need them or I find it enjoyable;
     however, don't let that stop you if you feel like it ;)
 
-    Flattr this
+    Flattr
     <https://flattr.com/submit/auto?user_id=RsrchBoy&url=https%3A%2F%2Fgith
     ub.com%2FRsrchBoy%2Fdist-zilla-pluginbundle-rsrchboy&title=RsrchBoy's%2
     0CPAN%20Dist-Zilla-PluginBundle-RSRCHBOY&tags=%22RsrchBoy's%20Dist-Zill
-    a-PluginBundle-RSRCHBOY%20in%20the%20CPAN%22>, gittip me
-    <https://www.gittip.com/RsrchBoy/>, or indulge my Amazon Wishlist
-    <http://bit.ly/rsrchboys-wishlist>... If you so desire.
+    a-PluginBundle-RSRCHBOY%20in%20the%20CPAN%22>, Gratipay
+    <https://gratipay.com/RsrchBoy/>, or indulge my Amazon Wishlist
+    <http://bit.ly/rsrchboys-wishlist>... If and *only* if you so desire.
 
 CONTRIBUTORS
 

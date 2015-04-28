@@ -9,7 +9,7 @@
 #
 package Pod::Weaver::Section::RSRCHBOY::GeneratedAttributes;
 our $AUTHORITY = 'cpan:RSRCHBOY';
-$Pod::Weaver::Section::RSRCHBOY::GeneratedAttributes::VERSION = '0.058';
+$Pod::Weaver::Section::RSRCHBOY::GeneratedAttributes::VERSION = '0.059';
 # ABSTRACT: Prefaced generated-only attributes
 
 use Moose;
@@ -46,7 +46,7 @@ Pod::Weaver::Section::RSRCHBOY::GeneratedAttributes - Prefaced generated-only at
 
 =head1 VERSION
 
-This document describes version 0.058 of Pod::Weaver::Section::RSRCHBOY::GeneratedAttributes - released April 21, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
+This document describes version 0.059 of Pod::Weaver::Section::RSRCHBOY::GeneratedAttributes - released April 27, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
 
 =head1 SEE ALSO
 
@@ -82,7 +82,7 @@ Chris Weyl <cweyl@alumni.drew.edu>
 
 =begin html
 
-<a href="https://www.gittip.com/RsrchBoy/"><img src="https://raw.githubusercontent.com/gittip/www.gittip.com/master/www/assets/%25version/logo.png" /></a>
+<a href="https://gratipay.com/RsrchBoy/"><img src="http://img.shields.io/gratipay/RsrchBoy.svg" /></a>
 <a href="http://bit.ly/rsrchboys-wishlist"><img src="http://wps.io/wp-content/uploads/2014/05/amazon_wishlist.resized.png" /></a>
 <a href="https://flattr.com/submit/auto?user_id=RsrchBoy&url=https%3A%2F%2Fgithub.com%2FRsrchBoy%2Fdist-zilla-pluginbundle-rsrchboy&title=RsrchBoy's%20CPAN%20Dist-Zilla-PluginBundle-RSRCHBOY&tags=%22RsrchBoy's%20Dist-Zilla-PluginBundle-RSRCHBOY%20in%20the%20CPAN%22"><img src="http://api.flattr.com/button/flattr-badge-large.png" /></a>
 
@@ -93,9 +93,9 @@ rather B<it is simply a very pleasant surprise>. I largely create and release
 works like this because I need them or I find it enjoyable; however, don't let
 that stop you if you feel like it ;)
 
-L<Flattr this|https://flattr.com/submit/auto?user_id=RsrchBoy&url=https%3A%2F%2Fgithub.com%2FRsrchBoy%2Fdist-zilla-pluginbundle-rsrchboy&title=RsrchBoy's%20CPAN%20Dist-Zilla-PluginBundle-RSRCHBOY&tags=%22RsrchBoy's%20Dist-Zilla-PluginBundle-RSRCHBOY%20in%20the%20CPAN%22>,
-L<gittip me|https://www.gittip.com/RsrchBoy/>, or indulge my
-L<Amazon Wishlist|http://bit.ly/rsrchboys-wishlist>...  If you so desire.
+L<Flattr|https://flattr.com/submit/auto?user_id=RsrchBoy&url=https%3A%2F%2Fgithub.com%2FRsrchBoy%2Fdist-zilla-pluginbundle-rsrchboy&title=RsrchBoy's%20CPAN%20Dist-Zilla-PluginBundle-RSRCHBOY&tags=%22RsrchBoy's%20Dist-Zilla-PluginBundle-RSRCHBOY%20in%20the%20CPAN%22>,
+L<Gratipay|https://gratipay.com/RsrchBoy/>, or indulge my
+L<Amazon Wishlist|http://bit.ly/rsrchboys-wishlist>...  If and *only* if you so desire.
 
 =head1 COPYRIGHT AND LICENSE
 
