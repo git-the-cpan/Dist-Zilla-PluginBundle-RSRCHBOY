@@ -9,8 +9,8 @@
 #
 package Dist::Zilla::PluginBundle::RSRCHBOY;
 our $AUTHORITY = 'cpan:RSRCHBOY';
-# git description: 0.059-1-gad9e51b
-$Dist::Zilla::PluginBundle::RSRCHBOY::VERSION = '0.060';
+# git description: 0.060-2-gc75ab0c
+$Dist::Zilla::PluginBundle::RSRCHBOY::VERSION = '0.061';
 
 # ABSTRACT: Zilla your distributions like RSRCHBOY!
 
@@ -354,7 +354,7 @@ Dist::Zilla::PluginBundle::RSRCHBOY - Zilla your distributions like RSRCHBOY!
 
 =head1 VERSION
 
-This document describes version 0.060 of Dist::Zilla::PluginBundle::RSRCHBOY - released April 27, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
+This document describes version 0.061 of Dist::Zilla::PluginBundle::RSRCHBOY - released May 05, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
 
 =head1 SYNOPSIS
 
@@ -456,11 +456,6 @@ L<Dist::Zilla::Role::PluginBundle::Config::Slicer|Dist::Zilla::Role::PluginBundl
 L<Config::MVP::Slicer|Config::MVP::Slicer>
 
 =back
-
-=head1 SOURCE
-
-The development version is on github at L<http://https://github.com/RsrchBoy/dist-zilla-pluginbundle-rsrchboy>
-and may be cloned from L<git://https://github.com/RsrchBoy/dist-zilla-pluginbundle-rsrchboy.git>
 
 =head1 BUGS
 

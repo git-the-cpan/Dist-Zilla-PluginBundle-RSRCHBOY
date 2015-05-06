@@ -5,9 +5,9 @@ NAME
 
 VERSION
 
-    This document describes version 0.060 of
-    Dist::Zilla::PluginBundle::RSRCHBOY - released April 27, 2015 as part
-    of Dist-Zilla-PluginBundle-RSRCHBOY.
+    This document describes version 0.061 of
+    Dist::Zilla::PluginBundle::RSRCHBOY - released May 05, 2015 as part of
+    Dist-Zilla-PluginBundle-RSRCHBOY.
 
 SYNOPSIS
 
@@ -100,13 +100,6 @@ SEE ALSO
 
       * Config::MVP::Slicer
 
-SOURCE
-
-    The development version is on github at
-    http://https://github.com/RsrchBoy/dist-zilla-pluginbundle-rsrchboy and
-    may be cloned from
-    git://https://github.com/RsrchBoy/dist-zilla-pluginbundle-rsrchboy.git
-
 BUGS
 
     Please report any bugs or feature requests on the bugtracker website
@@ -127,12 +120,10 @@ AUTHOR
     however, don't let that stop you if you feel like it ;)
 
     Flattr
-    <https://flattr.com/submit/auto?user_id=RsrchBoy&url=https%3A%2F%2Fgith
-    ub.com%2FRsrchBoy%2Fdist-zilla-pluginbundle-rsrchboy&title=RsrchBoy's%2
-    0CPAN%20Dist-Zilla-PluginBundle-RSRCHBOY&tags=%22RsrchBoy's%20Dist-Zill
-    a-PluginBundle-RSRCHBOY%20in%20the%20CPAN%22>, Gratipay
-    <https://gratipay.com/RsrchBoy/>, or indulge my Amazon Wishlist
-    <http://bit.ly/rsrchboys-wishlist>... If and *only* if you so desire.
+    <https://flattr.com/submit/auto?user_id=RsrchBoy&url=https%3A%2F%2Fgithub.com%2FRsrchBoy%2Fdist-zilla-pluginbundle-rsrchboy&title=RsrchBoy's%20CPAN%20Dist-Zilla-PluginBundle-RSRCHBOY&tags=%22RsrchBoy's%20Dist-Zilla-PluginBundle-RSRCHBOY%20in%20the%20CPAN%22>,
+    Gratipay <https://gratipay.com/RsrchBoy/>, or indulge my Amazon
+    Wishlist <http://bit.ly/rsrchboys-wishlist>... If and *only* if you so
+    desire.
 
 CONTRIBUTORS
 

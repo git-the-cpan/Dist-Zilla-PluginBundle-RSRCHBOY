@@ -9,7 +9,7 @@
 #
 package Pod::Weaver::PluginBundle::RSRCHBOY;
 our $AUTHORITY = 'cpan:RSRCHBOY';
-$Pod::Weaver::PluginBundle::RSRCHBOY::VERSION = '0.060';
+$Pod::Weaver::PluginBundle::RSRCHBOY::VERSION = '0.061';
 # ABSTRACT: Document your modules like RSRCHBOY does
 
 use strict;
@@ -53,7 +53,6 @@ sub mvp_bundle_config {
         [ '@RSRCHBOY/postlude',  _exp('Region'),       { region_name => 'postlude' } ],
 
         _exp2('SeeAlso'),
-        _exp2('SourceGitHub'),
         _exp2('Bugs'),
 
         [ 'RSRCHBOY::Authors',     _exp('RSRCHBOY::Authors'),     { } ],
@@ -83,7 +82,7 @@ Pod::Weaver::PluginBundle::RSRCHBOY - Document your modules like RSRCHBOY does
 
 =head1 VERSION
 
-This document describes version 0.060 of Pod::Weaver::PluginBundle::RSRCHBOY - released April 27, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
+This document describes version 0.061 of Pod::Weaver::PluginBundle::RSRCHBOY - released May 05, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
 
 =head1 SYNOPSIS
 
@@ -155,11 +154,6 @@ Please see those modules/websites for more information related to this module.
 L<Dist::Zilla::PluginBundle::RSRCHBOY|Dist::Zilla::PluginBundle::RSRCHBOY>
 
 =back
-
-=head1 SOURCE
-
-The development version is on github at L<http://https://github.com/RsrchBoy/dist-zilla-pluginbundle-rsrchboy>
-and may be cloned from L<git://https://github.com/RsrchBoy/dist-zilla-pluginbundle-rsrchboy.git>
 
 =head1 BUGS
 

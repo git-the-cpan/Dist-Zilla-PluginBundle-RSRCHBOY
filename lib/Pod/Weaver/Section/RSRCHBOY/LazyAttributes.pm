@@ -9,7 +9,7 @@
 #
 package Pod::Weaver::Section::RSRCHBOY::LazyAttributes;
 our $AUTHORITY = 'cpan:RSRCHBOY';
-$Pod::Weaver::Section::RSRCHBOY::LazyAttributes::VERSION = '0.060';
+$Pod::Weaver::Section::RSRCHBOY::LazyAttributes::VERSION = '0.061';
 # ABSTRACT: Prefaced lazy attributes section
 
 use Moose;
@@ -47,7 +47,7 @@ Pod::Weaver::Section::RSRCHBOY::LazyAttributes - Prefaced lazy attributes sectio
 
 =head1 VERSION
 
-This document describes version 0.060 of Pod::Weaver::Section::RSRCHBOY::LazyAttributes - released April 27, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
+This document describes version 0.061 of Pod::Weaver::Section::RSRCHBOY::LazyAttributes - released May 05, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
 
 =head1 SEE ALSO
 
@@ -60,11 +60,6 @@ Please see those modules/websites for more information related to this module.
 L<Dist::Zilla::PluginBundle::RSRCHBOY|Dist::Zilla::PluginBundle::RSRCHBOY>
 
 =back
-
-=head1 SOURCE
-
-The development version is on github at L<http://https://github.com/RsrchBoy/dist-zilla-pluginbundle-rsrchboy>
-and may be cloned from L<git://https://github.com/RsrchBoy/dist-zilla-pluginbundle-rsrchboy.git>
 
 =head1 BUGS
 
