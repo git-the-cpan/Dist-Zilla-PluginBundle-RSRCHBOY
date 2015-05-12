@@ -153,39 +153,39 @@
    "provides" : {
       "Dist::Zilla::PluginBundle::RSRCHBOY" : {
          "file" : "lib/Dist/Zilla/PluginBundle/RSRCHBOY.pm",
-         "version" : "0.061"
+         "version" : "0.062"
       },
       "Dist::Zilla::PluginBundle::RSRCHBOY::Role::Git" : {
          "file" : "lib/Dist/Zilla/PluginBundle/RSRCHBOY/Role/Git.pm",
-         "version" : "0.061"
+         "version" : "0.062"
       },
       "Pod::Weaver::PluginBundle::RSRCHBOY" : {
          "file" : "lib/Pod/Weaver/PluginBundle/RSRCHBOY.pm",
-         "version" : "0.061"
+         "version" : "0.062"
       },
       "Pod::Weaver::Section::RSRCHBOY::Authors" : {
          "file" : "lib/Pod/Weaver/Section/RSRCHBOY/Authors.pm",
-         "version" : "0.061"
+         "version" : "0.062"
       },
       "Pod::Weaver::Section::RSRCHBOY::GeneratedAttributes" : {
          "file" : "lib/Pod/Weaver/Section/RSRCHBOY/GeneratedAttributes.pm",
-         "version" : "0.061"
+         "version" : "0.062"
       },
       "Pod::Weaver::Section::RSRCHBOY::LazyAttributes" : {
          "file" : "lib/Pod/Weaver/Section/RSRCHBOY/LazyAttributes.pm",
-         "version" : "0.061"
+         "version" : "0.062"
       },
       "Pod::Weaver::Section::RSRCHBOY::RequiredAttributes" : {
          "file" : "lib/Pod/Weaver/Section/RSRCHBOY/RequiredAttributes.pm",
-         "version" : "0.061"
+         "version" : "0.062"
       },
       "Pod::Weaver::Section::RSRCHBOY::RoleParameters" : {
          "file" : "lib/Pod/Weaver/Section/RSRCHBOY/RoleParameters.pm",
-         "version" : "0.061"
+         "version" : "0.062"
       },
       "Pod::Weaver::SectionBase::CollectWithIntro" : {
          "file" : "lib/Pod/Weaver/SectionBase/CollectWithIntro.pm",
-         "version" : "0.061"
+         "version" : "0.062"
       }
    },
    "release_status" : "stable",
@@ -200,7 +200,7 @@
          "web" : "https://github.com/RsrchBoy/dist-zilla-pluginbundle-rsrchboy"
       }
    },
-   "version" : "0.061",
+   "version" : "0.062",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.020001"
@@ -239,7 +239,7 @@
          {
             "class" : "Dist::Zilla::Plugin::ContributorsFromGit",
             "name" : "@RSRCHBOY/ContributorsFromGit",
-            "version" : "0.016"
+            "version" : "0.017"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::CheckFor::CorrectBranch",
@@ -381,7 +381,7 @@
          {
             "class" : "Dist::Zilla::Plugin::Test::PodSpelling",
             "name" : "@RSRCHBOY/Test::PodSpelling",
-            "version" : "2.006009"
+            "version" : "2.006008"
          },
          {
             "class" : "Dist::Zilla::Plugin::ConsistentVersionTest",
@@ -474,12 +474,12 @@
                }
             },
             "name" : "@RSRCHBOY/RunExtraTests",
-            "version" : "0.027"
+            "version" : "0.026"
          },
          {
             "class" : "Dist::Zilla::Plugin::CheckExtraTests",
             "name" : "@RSRCHBOY/CheckExtraTests",
-            "version" : "0.027"
+            "version" : "0.026"
          },
          {
             "class" : "Dist::Zilla::Plugin::Test::MinimumVersion",
@@ -660,7 +660,7 @@
                "Dist::Zilla::Plugin::Git::Tag" : {
                   "branch" : null,
                   "signed" : "1",
-                  "tag" : "0.061",
+                  "tag" : "0.062",
                   "tag_format" : "%v",
                   "tag_message" : "v%v",
                   "time_zone" : "local"
@@ -783,7 +783,7 @@
          {
             "class" : "Dist::Zilla::Plugin::GitHubREADME::Badge",
             "name" : "@RSRCHBOY/GitHubREADME::Badge",
-            "version" : "0.14"
+            "version" : "0.11"
          },
          {
             "class" : "Dist::Zilla::Plugin::PodWeaver",

@@ -9,8 +9,8 @@
 #
 package Dist::Zilla::PluginBundle::RSRCHBOY;
 our $AUTHORITY = 'cpan:RSRCHBOY';
-# git description: 0.060-2-gc75ab0c
-$Dist::Zilla::PluginBundle::RSRCHBOY::VERSION = '0.061';
+# git description: 0.061-1-g0e34998
+$Dist::Zilla::PluginBundle::RSRCHBOY::VERSION = '0.062';
 
 # ABSTRACT: Zilla your distributions like RSRCHBOY!
 
@@ -121,13 +121,14 @@ sub release_plugins {
 
         [ 'Git::Tag' => { tag_format  => '%v', signed => $self->sign } ],
 
-        [ 'Git::CommitBuild' => 'Git::CommitBuild::Build' => { } ],
-
-        [ 'Git::CommitBuild' => 'Git::CommitBuild::Release' => {
-            release_branch       => 'release/cpan',
-            release_message      => 'Full build of CPAN release %v%t',
-            multiple_inheritance => 1,
-        }],
+        $ENV{TRAVIS} ? () : (
+            [ 'Git::CommitBuild' => 'Git::CommitBuild::Build' => { } ],
+            [ 'Git::CommitBuild' => 'Git::CommitBuild::Release' => {
+                release_branch       => 'release/cpan',
+                release_message      => 'Full build of CPAN release %v%t',
+                multiple_inheritance => 1,
+            }],
+        ),
 
         [ 'Git::Push' => {
             push_to => [
@@ -354,7 +355,7 @@ Dist::Zilla::PluginBundle::RSRCHBOY - Zilla your distributions like RSRCHBOY!
 
 =head1 VERSION
 
-This document describes version 0.061 of Dist::Zilla::PluginBundle::RSRCHBOY - released May 05, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
+This document describes version 0.062 of Dist::Zilla::PluginBundle::RSRCHBOY - released May 11, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
 
 =head1 SYNOPSIS
 

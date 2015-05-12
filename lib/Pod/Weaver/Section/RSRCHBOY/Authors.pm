@@ -9,7 +9,7 @@
 #
 package Pod::Weaver::Section::RSRCHBOY::Authors;
 our $AUTHORITY = 'cpan:RSRCHBOY';
-$Pod::Weaver::Section::RSRCHBOY::Authors::VERSION = '0.061';
+$Pod::Weaver::Section::RSRCHBOY::Authors::VERSION = '0.062';
 # ABSTRACT: An AUTHORS section with materialistic pleasures
 
 use v5.10;
@@ -104,7 +104,7 @@ Pod::Weaver::Section::RSRCHBOY::Authors - An AUTHORS section with materialistic 
 
 =head1 VERSION
 
-This document describes version 0.061 of Pod::Weaver::Section::RSRCHBOY::Authors - released May 05, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
+This document describes version 0.062 of Pod::Weaver::Section::RSRCHBOY::Authors - released May 11, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
 
 =head1 DESCRIPTION
 
