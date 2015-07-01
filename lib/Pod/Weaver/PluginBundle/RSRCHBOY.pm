@@ -9,7 +9,7 @@
 #
 package Pod::Weaver::PluginBundle::RSRCHBOY;
 our $AUTHORITY = 'cpan:RSRCHBOY';
-$Pod::Weaver::PluginBundle::RSRCHBOY::VERSION = '0.062';
+$Pod::Weaver::PluginBundle::RSRCHBOY::VERSION = '0.063';
 # ABSTRACT: Document your modules like RSRCHBOY does
 
 use strict;
@@ -40,10 +40,11 @@ sub mvp_bundle_config {
 
         [ 'REQUIRED ATTRIBUTES', _exp('RSRCHBOY::RequiredAttributes'), { } ],
         [ 'LAZY ATTRIBUTES',     _exp('RSRCHBOY::LazyAttributes'),     { } ],
+        [ 'REQUIRED METHODS', _exp('Collect'), { command => 'required_method' } ],
 
         [ 'ATTRIBUTES',       _exp('Collect'), { command => 'attr'            } ],
         [ 'METHODS',          _exp('Collect'), { command => 'method'          } ],
-        [ 'REQUIRED METHODS', _exp('Collect'), { command => 'required_method' } ],
+        [ 'PRIVATE METHODS',  _exp('Collect'), { command => 'pvt_method'      } ],
         [ 'FUNCTIONS',        _exp('Collect'), { command => 'func'            } ],
         [ 'TYPES',            _exp('Collect'), { command => 'type'            } ],
         [ 'TEST_FUNCTIONS',   _exp('Collect'), { command => 'test'            } ],
@@ -82,7 +83,7 @@ Pod::Weaver::PluginBundle::RSRCHBOY - Document your modules like RSRCHBOY does
 
 =head1 VERSION
 
-This document describes version 0.062 of Pod::Weaver::PluginBundle::RSRCHBOY - released May 11, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
+This document describes version 0.063 of Pod::Weaver::PluginBundle::RSRCHBOY - released June 30, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
 
 =head1 SYNOPSIS
 

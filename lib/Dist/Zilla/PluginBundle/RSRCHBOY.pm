@@ -9,8 +9,8 @@
 #
 package Dist::Zilla::PluginBundle::RSRCHBOY;
 our $AUTHORITY = 'cpan:RSRCHBOY';
-# git description: 0.061-1-g0e34998
-$Dist::Zilla::PluginBundle::RSRCHBOY::VERSION = '0.062';
+# git description: 0.062-2-g983db82
+$Dist::Zilla::PluginBundle::RSRCHBOY::VERSION = '0.063';
 
 # ABSTRACT: Zilla your distributions like RSRCHBOY!
 
@@ -333,6 +333,7 @@ sub stopwords {
         subclasses
         coderef
         Gratipay
+        codebase
     };
 }
 
@@ -355,7 +356,7 @@ Dist::Zilla::PluginBundle::RSRCHBOY - Zilla your distributions like RSRCHBOY!
 
 =head1 VERSION
 
-This document describes version 0.062 of Dist::Zilla::PluginBundle::RSRCHBOY - released May 11, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
+This document describes version 0.063 of Dist::Zilla::PluginBundle::RSRCHBOY - released June 30, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
 
 =head1 SYNOPSIS
 
