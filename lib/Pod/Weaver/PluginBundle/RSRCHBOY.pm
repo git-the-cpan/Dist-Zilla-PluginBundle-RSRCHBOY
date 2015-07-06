@@ -9,7 +9,7 @@
 #
 package Pod::Weaver::PluginBundle::RSRCHBOY;
 our $AUTHORITY = 'cpan:RSRCHBOY';
-$Pod::Weaver::PluginBundle::RSRCHBOY::VERSION = '0.063';
+$Pod::Weaver::PluginBundle::RSRCHBOY::VERSION = '0.064';
 # ABSTRACT: Document your modules like RSRCHBOY does
 
 use strict;
@@ -83,7 +83,7 @@ Pod::Weaver::PluginBundle::RSRCHBOY - Document your modules like RSRCHBOY does
 
 =head1 VERSION
 
-This document describes version 0.063 of Pod::Weaver::PluginBundle::RSRCHBOY - released June 30, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
+This document describes version 0.064 of Pod::Weaver::PluginBundle::RSRCHBOY - released July 05, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
 
 =head1 SYNOPSIS
 

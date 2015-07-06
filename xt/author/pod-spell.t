@@ -10,20 +10,21 @@ use Pod::Wordlist;
 add_stopwords(<DATA>);
 all_pod_files_spelling_ok( qw( bin lib  ) );
 __DATA__
-AFAICT
 ABEND
+AFAICT
+Gratipay
 RSRCHBOY
 RSRCHBOY's
+codebase
+coderef
 gpg
+implementers
 ini
 metaclass
 metaclasses
-parameterized
 parameterization
+parameterized
 subclasses
-coderef
-Gratipay
-codebase
 Chris
 Weyl
 cweyl

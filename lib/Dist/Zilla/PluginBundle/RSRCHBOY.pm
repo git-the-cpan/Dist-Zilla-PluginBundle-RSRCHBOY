@@ -9,8 +9,8 @@
 #
 package Dist::Zilla::PluginBundle::RSRCHBOY;
 our $AUTHORITY = 'cpan:RSRCHBOY';
-# git description: 0.062-2-g983db82
-$Dist::Zilla::PluginBundle::RSRCHBOY::VERSION = '0.063';
+# git description: 0.063-2-gb52ff68
+$Dist::Zilla::PluginBundle::RSRCHBOY::VERSION = '0.064';
 
 # ABSTRACT: Zilla your distributions like RSRCHBOY!
 
@@ -320,20 +320,21 @@ sub ensure_current {
 sub stopwords {
 
     return qw{
-        AFAICT
         ABEND
+        AFAICT
+        Gratipay
         RSRCHBOY
         RSRCHBOY's
+        codebase
+        coderef
         gpg
+        implementers
         ini
         metaclass
         metaclasses
-        parameterized
         parameterization
+        parameterized
         subclasses
-        coderef
-        Gratipay
-        codebase
     };
 }
 
@@ -356,7 +357,7 @@ Dist::Zilla::PluginBundle::RSRCHBOY - Zilla your distributions like RSRCHBOY!
 
 =head1 VERSION
 
-This document describes version 0.063 of Dist::Zilla::PluginBundle::RSRCHBOY - released June 30, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
+This document describes version 0.064 of Dist::Zilla::PluginBundle::RSRCHBOY - released July 05, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
 
 =head1 SYNOPSIS
 

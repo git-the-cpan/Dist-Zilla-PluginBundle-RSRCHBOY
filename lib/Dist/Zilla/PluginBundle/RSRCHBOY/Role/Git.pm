@@ -9,7 +9,7 @@
 #
 package Dist::Zilla::PluginBundle::RSRCHBOY::Role::Git;
 our $AUTHORITY = 'cpan:RSRCHBOY';
-$Dist::Zilla::PluginBundle::RSRCHBOY::Role::Git::VERSION = '0.063';
+$Dist::Zilla::PluginBundle::RSRCHBOY::Role::Git::VERSION = '0.064';
 # ABSTRACT: A helper role for Git::Raw operations
 
 use Moose::Role;
@@ -54,7 +54,7 @@ Dist::Zilla::PluginBundle::RSRCHBOY::Role::Git - A helper role for Git::Raw oper
 
 =head1 VERSION
 
-This document describes version 0.063 of Dist::Zilla::PluginBundle::RSRCHBOY::Role::Git - released June 30, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
+This document describes version 0.064 of Dist::Zilla::PluginBundle::RSRCHBOY::Role::Git - released July 05, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
 
 =head1 ATTRIBUTES
 
