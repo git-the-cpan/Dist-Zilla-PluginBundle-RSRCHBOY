@@ -9,7 +9,7 @@
 #
 package Pod::Weaver::PluginBundle::RSRCHBOY;
 our $AUTHORITY = 'cpan:RSRCHBOY';
-$Pod::Weaver::PluginBundle::RSRCHBOY::VERSION = '0.064';
+$Pod::Weaver::PluginBundle::RSRCHBOY::VERSION = '0.064_01'; # TRIAL
 # ABSTRACT: Document your modules like RSRCHBOY does
 
 use strict;
@@ -32,22 +32,26 @@ sub mvp_bundle_config {
         [ '@RSRCHBOY/Version', _exp('Version'), { format      => $vformat  } ],
         [ '@RSRCHBOY/prelude', _exp('Region'),  { region_name => 'prelude' } ],
 
-        [ 'SYNOPSIS',         _exp('Generic'),      {} ],
-        [ 'DESCRIPTION',      _exp('Generic'),      {} ],
-        [ 'OVERVIEW',         _exp('Generic'),      {} ],
+        [ 'SYNOPSIS',    _exp('Generic'), {} ],
+        [ 'DESCRIPTION', _exp('Generic'), {} ],
+        [ 'OVERVIEW',    _exp('Generic'), {} ],
+
+        [ 'EXTENDS',    _exp('Collect'), { command => 'extends'    } ],
+        [ 'IMPLEMENTS', _exp('Collect'), { command => 'implements' } ],
+        [ 'CONSUMES',   _exp('Collect'), { command => 'consumes'   } ],
 
         [ 'ROLE PARAMETERS', _exp('RSRCHBOY::RoleParameters'), {} ],
 
-        [ 'REQUIRED ATTRIBUTES', _exp('RSRCHBOY::RequiredAttributes'), { } ],
-        [ 'LAZY ATTRIBUTES',     _exp('RSRCHBOY::LazyAttributes'),     { } ],
-        [ 'REQUIRED METHODS', _exp('Collect'), { command => 'required_method' } ],
+        [ 'REQUIRED ATTRIBUTES', _exp('RSRCHBOY::RequiredAttributes'), {         } ],
+        [ 'LAZY ATTRIBUTES',     _exp('RSRCHBOY::LazyAttributes'),     {         } ],
+        [ 'REQUIRED METHODS',    _exp('Collect'), { command => 'required_method' } ],
 
-        [ 'ATTRIBUTES',       _exp('Collect'), { command => 'attr'            } ],
-        [ 'METHODS',          _exp('Collect'), { command => 'method'          } ],
-        [ 'PRIVATE METHODS',  _exp('Collect'), { command => 'pvt_method'      } ],
-        [ 'FUNCTIONS',        _exp('Collect'), { command => 'func'            } ],
-        [ 'TYPES',            _exp('Collect'), { command => 'type'            } ],
-        [ 'TEST_FUNCTIONS',   _exp('Collect'), { command => 'test'            } ],
+        [ 'ATTRIBUTES',       _exp('Collect'), { command => 'attr'       } ],
+        [ 'METHODS',          _exp('Collect'), { command => 'method'     } ],
+        [ 'PRIVATE METHODS',  _exp('Collect'), { command => 'pvt_method' } ],
+        [ 'FUNCTIONS',        _exp('Collect'), { command => 'func'       } ],
+        [ 'TYPES',            _exp('Collect'), { command => 'type'       } ],
+        [ 'TEST_FUNCTIONS',   _exp('Collect'), { command => 'test'       } ],
 
         _exp2('Leftovers'),
 
@@ -83,7 +87,7 @@ Pod::Weaver::PluginBundle::RSRCHBOY - Document your modules like RSRCHBOY does
 
 =head1 VERSION
 
-This document describes version 0.064 of Pod::Weaver::PluginBundle::RSRCHBOY - released July 05, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
+This document describes version 0.064_01 of Pod::Weaver::PluginBundle::RSRCHBOY - released July 10, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
 
 =head1 SYNOPSIS
 
