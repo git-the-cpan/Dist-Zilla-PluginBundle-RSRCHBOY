@@ -153,42 +153,42 @@
    "provides" : {
       "Dist::Zilla::PluginBundle::RSRCHBOY" : {
          "file" : "lib/Dist/Zilla/PluginBundle/RSRCHBOY.pm",
-         "version" : "0.064_01"
+         "version" : "0.065"
       },
       "Dist::Zilla::PluginBundle::RSRCHBOY::Role::Git" : {
          "file" : "lib/Dist/Zilla/PluginBundle/RSRCHBOY/Role/Git.pm",
-         "version" : "0.064_01"
+         "version" : "0.065"
       },
       "Pod::Weaver::PluginBundle::RSRCHBOY" : {
          "file" : "lib/Pod/Weaver/PluginBundle/RSRCHBOY.pm",
-         "version" : "0.064_01"
+         "version" : "0.065"
       },
       "Pod::Weaver::Section::RSRCHBOY::Authors" : {
          "file" : "lib/Pod/Weaver/Section/RSRCHBOY/Authors.pm",
-         "version" : "0.064_01"
+         "version" : "0.065"
       },
       "Pod::Weaver::Section::RSRCHBOY::GeneratedAttributes" : {
          "file" : "lib/Pod/Weaver/Section/RSRCHBOY/GeneratedAttributes.pm",
-         "version" : "0.064_01"
+         "version" : "0.065"
       },
       "Pod::Weaver::Section::RSRCHBOY::LazyAttributes" : {
          "file" : "lib/Pod/Weaver/Section/RSRCHBOY/LazyAttributes.pm",
-         "version" : "0.064_01"
+         "version" : "0.065"
       },
       "Pod::Weaver::Section::RSRCHBOY::RequiredAttributes" : {
          "file" : "lib/Pod/Weaver/Section/RSRCHBOY/RequiredAttributes.pm",
-         "version" : "0.064_01"
+         "version" : "0.065"
       },
       "Pod::Weaver::Section::RSRCHBOY::RoleParameters" : {
          "file" : "lib/Pod/Weaver/Section/RSRCHBOY/RoleParameters.pm",
-         "version" : "0.064_01"
+         "version" : "0.065"
       },
       "Pod::Weaver::SectionBase::CollectWithIntro" : {
          "file" : "lib/Pod/Weaver/SectionBase/CollectWithIntro.pm",
-         "version" : "0.064_01"
+         "version" : "0.065"
       }
    },
-   "release_status" : "testing",
+   "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
          "web" : "https://github.com/RsrchBoy/dist-zilla-pluginbundle-rsrchboy/issues"
@@ -200,7 +200,7 @@
          "web" : "https://github.com/RsrchBoy/dist-zilla-pluginbundle-rsrchboy"
       }
    },
-   "version" : "0.064_01",
+   "version" : "0.065",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.020001"
@@ -660,7 +660,7 @@
                "Dist::Zilla::Plugin::Git::Tag" : {
                   "branch" : null,
                   "signed" : "1",
-                  "tag" : "0.064_01",
+                  "tag" : "0.065",
                   "tag_format" : "%v",
                   "tag_message" : "v%v",
                   "time_zone" : "local"
@@ -914,7 +914,7 @@
                      },
                      {
                         "class" : "Pod::Weaver::Section::Collect",
-                        "name" : "TEST_FUNCTIONS",
+                        "name" : "TEST FUNCTIONS",
                         "version" : "4.012"
                      },
                      {
@@ -1061,7 +1061,7 @@
       "zilla" : {
          "class" : "Dist::Zilla::Dist::Builder",
          "config" : {
-            "is_trial" : "1"
+            "is_trial" : "0"
          },
          "version" : "5.037"
       }

@@ -1,5 +1,8 @@
 Revision history for Dist-Zilla-PluginBundle-RSRCHBOY
 
+0.065     2015-07-12 14:54:18 PDT-0700
+	* TEST_FUNCTIONS -> TEST FUNCTIONS
+
 0.064_01-TRIAL  2015-07-10 21:48:05 PDT-0700
 	* rejigger and add some pod sections
 

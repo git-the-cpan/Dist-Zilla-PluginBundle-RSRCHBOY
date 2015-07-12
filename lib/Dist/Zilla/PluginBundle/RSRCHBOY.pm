@@ -9,8 +9,8 @@
 #
 package Dist::Zilla::PluginBundle::RSRCHBOY;
 our $AUTHORITY = 'cpan:RSRCHBOY';
-# git description: 0.064-2-g5a72259
-$Dist::Zilla::PluginBundle::RSRCHBOY::VERSION = '0.064_01'; # TRIAL
+# git description: 0.064_01-1-g7825ddf
+$Dist::Zilla::PluginBundle::RSRCHBOY::VERSION = '0.065';
 
 # ABSTRACT: Zilla your distributions like RSRCHBOY!
 
@@ -357,7 +357,7 @@ Dist::Zilla::PluginBundle::RSRCHBOY - Zilla your distributions like RSRCHBOY!
 
 =head1 VERSION
 
-This document describes version 0.064_01 of Dist::Zilla::PluginBundle::RSRCHBOY - released July 10, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
+This document describes version 0.065 of Dist::Zilla::PluginBundle::RSRCHBOY - released July 12, 2015 as part of Dist-Zilla-PluginBundle-RSRCHBOY.
 
 =head1 SYNOPSIS
 
