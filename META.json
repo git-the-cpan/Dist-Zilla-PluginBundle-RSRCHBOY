@@ -35,8 +35,8 @@
             "Test::NoTabs" : "0",
             "Test::Pod" : "1.41",
             "Test::Pod::Coverage" : "1.08",
-            "Test::Spelling" : "0.12",
-            "version" : "0.9901"
+            "Test::Pod::LinkCheck" : "0",
+            "Test::Spelling" : "0.12"
          }
       },
       "runtime" : {
@@ -79,7 +79,6 @@
             "Dist::Zilla::Plugin::PromptIfStale" : "0",
             "Dist::Zilla::Plugin::PruneFiles" : "0",
             "Dist::Zilla::Plugin::ReadmeAnyFromPod" : "0",
-            "Dist::Zilla::Plugin::ReportVersions::Tiny" : "0",
             "Dist::Zilla::Plugin::Run::AfterMint" : "0",
             "Dist::Zilla::Plugin::RunExtraTests" : "0",
             "Dist::Zilla::Plugin::SchwartzRatio" : "0",
@@ -93,6 +92,7 @@
             "Dist::Zilla::Plugin::Test::NoTabs" : "0",
             "Dist::Zilla::Plugin::Test::Pod::LinkCheck" : "0",
             "Dist::Zilla::Plugin::Test::PodSpelling" : "2.002001",
+            "Dist::Zilla::Plugin::Test::ReportPrereqs" : "0",
             "Dist::Zilla::Plugin::TestRelease" : "0",
             "Dist::Zilla::Plugin::Travis::ConfigForReleaseBranch" : "0.004",
             "Dist::Zilla::Plugin::Twitter" : "0",
@@ -140,7 +140,11 @@
          }
       },
       "test" : {
+         "recommends" : {
+            "CPAN::Meta" : "2.120900"
+         },
          "requires" : {
+            "ExtUtils::MakeMaker" : "0",
             "File::Spec" : "0",
             "IO::Handle" : "0",
             "IPC::Open3" : "0",
@@ -153,39 +157,39 @@
    "provides" : {
       "Dist::Zilla::PluginBundle::RSRCHBOY" : {
          "file" : "lib/Dist/Zilla/PluginBundle/RSRCHBOY.pm",
-         "version" : "0.065"
+         "version" : "0.066"
       },
       "Dist::Zilla::PluginBundle::RSRCHBOY::Role::Git" : {
          "file" : "lib/Dist/Zilla/PluginBundle/RSRCHBOY/Role/Git.pm",
-         "version" : "0.065"
+         "version" : "0.066"
       },
       "Pod::Weaver::PluginBundle::RSRCHBOY" : {
          "file" : "lib/Pod/Weaver/PluginBundle/RSRCHBOY.pm",
-         "version" : "0.065"
+         "version" : "0.066"
       },
       "Pod::Weaver::Section::RSRCHBOY::Authors" : {
          "file" : "lib/Pod/Weaver/Section/RSRCHBOY/Authors.pm",
-         "version" : "0.065"
+         "version" : "0.066"
       },
       "Pod::Weaver::Section::RSRCHBOY::GeneratedAttributes" : {
          "file" : "lib/Pod/Weaver/Section/RSRCHBOY/GeneratedAttributes.pm",
-         "version" : "0.065"
+         "version" : "0.066"
       },
       "Pod::Weaver::Section::RSRCHBOY::LazyAttributes" : {
          "file" : "lib/Pod/Weaver/Section/RSRCHBOY/LazyAttributes.pm",
-         "version" : "0.065"
+         "version" : "0.066"
       },
       "Pod::Weaver::Section::RSRCHBOY::RequiredAttributes" : {
          "file" : "lib/Pod/Weaver/Section/RSRCHBOY/RequiredAttributes.pm",
-         "version" : "0.065"
+         "version" : "0.066"
       },
       "Pod::Weaver::Section::RSRCHBOY::RoleParameters" : {
          "file" : "lib/Pod/Weaver/Section/RSRCHBOY/RoleParameters.pm",
-         "version" : "0.065"
+         "version" : "0.066"
       },
       "Pod::Weaver::SectionBase::CollectWithIntro" : {
          "file" : "lib/Pod/Weaver/SectionBase/CollectWithIntro.pm",
-         "version" : "0.065"
+         "version" : "0.066"
       }
    },
    "release_status" : "stable",
@@ -200,7 +204,7 @@
          "web" : "https://github.com/RsrchBoy/dist-zilla-pluginbundle-rsrchboy"
       }
    },
-   "version" : "0.065",
+   "version" : "0.066",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.020001"
@@ -226,7 +230,7 @@
             "config" : {
                "Dist::Zilla::Plugin::Git::NextVersion" : {
                   "first_version" : "0.001",
-                  "version_by_branch" : "0",
+                  "version_by_branch" : 0,
                   "version_regexp" : "(?^:^(\\d.\\d+(_\\d\\d)?)(-TRIAL|)$)"
                },
                "Dist::Zilla::Role::Git::Repo" : {
@@ -234,7 +238,7 @@
                }
             },
             "name" : "@RSRCHBOY/Git::NextVersion",
-            "version" : "2.035"
+            "version" : "2.036"
          },
          {
             "class" : "Dist::Zilla::Plugin::ContributorsFromGit",
@@ -315,7 +319,7 @@
          {
             "class" : "Dist::Zilla::Plugin::Git::Describe",
             "name" : "@RSRCHBOY/Git::Describe",
-            "version" : "0.005"
+            "version" : "0.006"
          },
          {
             "class" : "Dist::Zilla::Plugin::ExecDir",
@@ -353,9 +357,9 @@
             "version" : "1.006"
          },
          {
-            "class" : "Dist::Zilla::Plugin::ReportVersions::Tiny",
-            "name" : "@RSRCHBOY/ReportVersions::Tiny",
-            "version" : "1.12"
+            "class" : "Dist::Zilla::Plugin::Test::ReportPrereqs",
+            "name" : "@RSRCHBOY/Test::ReportPrereqs",
+            "version" : "0.021"
          },
          {
             "class" : "Dist::Zilla::Plugin::AutoPrereqs",
@@ -464,7 +468,7 @@
          {
             "class" : "Dist::Zilla::Plugin::Test::Pod::LinkCheck",
             "name" : "@RSRCHBOY/Test::Pod::LinkCheck",
-            "version" : "1.001"
+            "version" : "1.002"
          },
          {
             "class" : "Dist::Zilla::Plugin::RunExtraTests",
@@ -535,7 +539,7 @@
          {
             "class" : "Dist::Zilla::Plugin::GithubMeta",
             "name" : "@RSRCHBOY/GithubMeta",
-            "version" : "0.52"
+            "version" : "0.54"
          },
          {
             "class" : "Dist::Zilla::Plugin::TestRelease",
@@ -578,11 +582,11 @@
                      ".gitignore",
                      ".travis.yml",
                      "Changes",
-                     "README.mkdn",
-                     "dist.ini",
-                     "weaver.ini",
                      "LICENSE",
-                     "cpanfile"
+                     "README.mkdn",
+                     "cpanfile",
+                     "dist.ini",
+                     "weaver.ini"
                   ],
                   "allow_dirty_match" : [],
                   "changelog" : "Changes"
@@ -592,36 +596,38 @@
                }
             },
             "name" : "@RSRCHBOY/Git::Check",
-            "version" : "2.035"
+            "version" : "2.036"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::Commit",
             "config" : {
                "Dist::Zilla::Plugin::Git::Commit" : {
                   "add_files_in" : [],
-                  "commit_msg" : "v%v%n%n%c",
-                  "time_zone" : "local"
+                  "commit_msg" : "v%v%n%n%c"
                },
                "Dist::Zilla::Role::Git::DirtyFiles" : {
                   "allow_dirty" : [
                      ".gitignore",
                      ".travis.yml",
                      "Changes",
-                     "README.mkdn",
-                     "dist.ini",
-                     "weaver.ini",
                      "LICENSE",
-                     "cpanfile"
+                     "README.mkdn",
+                     "cpanfile",
+                     "dist.ini",
+                     "weaver.ini"
                   ],
                   "allow_dirty_match" : [],
                   "changelog" : "Changes"
                },
                "Dist::Zilla::Role::Git::Repo" : {
                   "repo_root" : "."
+               },
+               "Dist::Zilla::Role::Git::StringFormatter" : {
+                  "time_zone" : "local"
                }
             },
             "name" : "@RSRCHBOY/Git::Commit",
-            "version" : "2.035"
+            "version" : "2.036"
          },
          {
             "class" : "Dist::Zilla::Plugin::Test::CheckDeps",
@@ -659,18 +665,21 @@
             "config" : {
                "Dist::Zilla::Plugin::Git::Tag" : {
                   "branch" : null,
-                  "signed" : "1",
-                  "tag" : "0.065",
+                  "changelog" : "Changes",
+                  "signed" : 1,
+                  "tag" : "0.066",
                   "tag_format" : "%v",
-                  "tag_message" : "v%v",
-                  "time_zone" : "local"
+                  "tag_message" : "v%v"
                },
                "Dist::Zilla::Role::Git::Repo" : {
                   "repo_root" : "."
+               },
+               "Dist::Zilla::Role::Git::StringFormatter" : {
+                  "time_zone" : "local"
                }
             },
             "name" : "@RSRCHBOY/Git::Tag",
-            "version" : "2.035"
+            "version" : "2.036"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::CommitBuild",
@@ -688,7 +697,7 @@
                }
             },
             "name" : "@RSRCHBOY/Git::CommitBuild::Build",
-            "version" : "2.035"
+            "version" : "2.036"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::CommitBuild",
@@ -706,7 +715,7 @@
                }
             },
             "name" : "@RSRCHBOY/Git::CommitBuild::Release",
-            "version" : "2.035"
+            "version" : "2.036"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::Push",
@@ -723,7 +732,7 @@
                }
             },
             "name" : "@RSRCHBOY/Git::Push",
-            "version" : "2.035"
+            "version" : "2.036"
          },
          {
             "class" : "Dist::Zilla::Plugin::UploadToCPAN",
@@ -742,8 +751,13 @@
          },
          {
             "class" : "Dist::Zilla::Plugin::GitHub::Update",
+            "config" : {
+               "Dist::Zilla::Plugin::GitHub::Update" : {
+                  "metacpan" : 1
+               }
+            },
             "name" : "@RSRCHBOY/GitHub::Update",
-            "version" : "0.40"
+            "version" : "0.41"
          },
          {
             "class" : "Dist::Zilla::Plugin::ArchiveRelease",

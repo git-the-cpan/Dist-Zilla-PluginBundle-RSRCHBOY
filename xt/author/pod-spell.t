@@ -25,6 +25,8 @@ metaclasses
 parameterization
 parameterized
 subclasses
+Formattable
+formattable
 Chris
 Weyl
 cweyl

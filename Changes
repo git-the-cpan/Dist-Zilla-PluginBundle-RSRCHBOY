@@ -1,5 +1,9 @@
 Revision history for Dist-Zilla-PluginBundle-RSRCHBOY
 
+0.066     2015-08-07 15:27:00 PDT-0700
+	* add 'formattable' to stopwords
+	* ReportVersions::Tiny -> Test::ReportVersions
+
 0.065     2015-07-12 14:54:18 PDT-0700
 	* TEST_FUNCTIONS -> TEST FUNCTIONS
 
